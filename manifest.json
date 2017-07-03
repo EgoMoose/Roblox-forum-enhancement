@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+
+	"name": "Roblox forum code/math render",
+	"description": "This extension allows the use of code and latex equations on Roblox forums",
+	"version": "1.0",
+
+	"content_scripts": [ {
+		"all_frames": true,
+		"css": [ "highlight/styles/atom-one-light.css", "katex/katex.min.css" ],
+		"js": [ "highlight/highlight.pack.js", "highlight/auto-renderCode.js", "katex/katex.min.js", "katex/contrib/auto-renderMath.min.js", "main.js" ],
+		"matches": [ "<all_urls>" ]
+	} ],
+	
+	"permissions": [ "*://*.roblox.com/" ]
+}	
