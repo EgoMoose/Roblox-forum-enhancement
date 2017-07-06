@@ -15,17 +15,25 @@ Allows the usage of LaTeX equations and code sytax highlighting
 
 ## How to use
 
-To use the LaTex math simply first write the equation in latex notation. I recomend [this site](https://www.codecogs.com/latex/eqneditor.php) for those of you who don't know latex that well.
+To use the LaTeX math simply first write the equation in LaTeX notation. I recomend [this site](https://www.codecogs.com/latex/eqneditor.php) for those of you who don't know latex that well.
 
-Once you have your LaTex simply suround it with one of these three options:
+Once you have your LaTeX simply suround it with one of these three options:
 - $$LaTeX$$ for inline math
 - \\(LaTeX\\) for inline math
 - \\[LaTeX\\] for display math
 
 To use code the format is the same as Github's markdown:
 
-'''NAMEOFLANGUAGE
+\`\`\`name-of-language
 
-code goes here...
+code...
+
+\`\`\`
+
+OR
+
+'''name-of-language
+
+code..
 
 '''
