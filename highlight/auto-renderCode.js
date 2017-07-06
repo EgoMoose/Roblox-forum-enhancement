@@ -170,10 +170,11 @@ const renderElem = function(elem, optionsCopy) {
 const defaultAutoRenderOptions = {
     delimiters: [
         {left: "'''", right: "'''"},
+		{left: "```", right: "```"},
     ],
 
     ignoredTags: [
-        "script", "noscript", "style", "textarea", "pre", "code",
+        "script", "noscript", "style", "textarea", "code",
     ],
 };
 
