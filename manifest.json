@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
 
-	"name": "Roblox forum code/math render",
-	"description": "This extension allows the use of code and latex equations on Roblox forums",
-	"version": "1.0",
+	"name": "Roblox forum enhancement",
+	"description": "This extension allows the use of code and LaTeX math equations on the Roblox forums",
+	"version": "1.2",
 
 	"content_scripts": [ {
 		"all_frames": true,
